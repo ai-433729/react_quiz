@@ -1,0 +1,14 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    gap: 10px 0;
+
+    .resultHighLight {
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
