@@ -7,7 +7,7 @@ import ResultPage from './pages/ResultPage'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react_quiz">
       <Routes>
         <Route path={ROUTES.HOME} element={<HomePage />} />
         <Route path={ROUTES.QUIZ} element={<QuizPage />} />
