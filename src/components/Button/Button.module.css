@@ -10,8 +10,10 @@
     .buttonInner {
         color: #222;
     }
+}
 
-    &:hover{
+@media (hover:hover){
+    .button:hover{
         background-color: #c4c4c4;
     }
 }
